@@ -13,9 +13,12 @@ hr{
 }
 h1 {
   font-size: 70px;
+  color: rgb(151, 89, 37);
+  margin-bottom: 15px;
 }
 h2 {
   font-size: 40px;
+  color: rgb(80, 46, 31);
 }
 .estable {
   font-style: italic;
@@ -55,8 +58,12 @@ h1, p, h2 {
   }
   .item p {
     display: inline-block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 110%;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
-  .typ, .dessert {
+  .typ {
     text-align: left;
     width: 75%;
   }
@@ -64,3 +71,17 @@ h1, p, h2 {
     text-align: right;
     width: 25%;
   }
+a {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: brown;
+}
+a:active {
+  color: white;
+}
